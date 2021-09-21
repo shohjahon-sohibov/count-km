@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>js-7-hemowork</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <form class="form" action="https://echo.htmlacademy.ru" method="POST">
+      <h1 class="heading m-auto">travel navigator</h1> 
+      <input class="input-entered-distace" type="number" name="disctance" id="disctance" placeholder="...km" autocomplete="off" min="0" required>
+      <button class="button" type="submit">click</button>
+    </form>   
+    
+    <div class="row d-flex justify-content-around mt-5">
+      <div class="col-1 card mb-3">
+        <img src="img/foot.png" class="card-img-top" alt="foot" width="60" height="60">
+        <div class="card-body">
+          <p class="card-text output-foot"></p>
+        </div>
+      </div>
+      <div class="col-1 card mb-3">
+        <img src="img/bike.jfif" class="card-img-top" alt="bike" width="60" height="60">
+        <div class="card-body">
+          <p class="card-text output-bike"></p>
+        </div>
+      </div>
+      <div class="col-1 card mb-3">
+        <img src="img/car.png" class="card-img-top" alt="car" width="60" height="60">
+        <div class="card-body">
+          <p class="card-text output-car"></p>
+        </div>
+      </div>
+    </div>
+
+    <output class="output-foot"></output>
+    <output class="output-bike"></output>
+    <output class="output-car"></output>
+  </div>
+  
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
